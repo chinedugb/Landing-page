@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SmartLens</title>
+        <link rel="stylesheet" href="lens.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>SmartLens</h1>
+                <nav>
+                    <a href="#features">Features</a>
+                    <a href="#signup">Signup</a>
+                    <a href="#contact">Contact Us</a>
+                </nav>
+         </div>  
+        </header>
+
+        <section class="hero">
+            <div class="container">
+                <img src="lens.jpg" alt="SmartLens">
+                <h2>Smart. Fashionable.</h2>
+                <p>SmartLens is an AI-powered pair of glasses which is designed for people to get information without their hands.</p>
+                <button onclick="scrollToSection('signup')">Pre-order</button>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <ul>
+                    <li>Hands-Free Communication</li>
+                    <li>Language Translation</li>
+                    <li>Entertainment</li>
+                    <li>Photography and Videography</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="signup" class="signup">
+            <div class="container">
+                <h2>Be The First To Know</h2>
+                <form id="signupForm">
+                    <input type="email" id="email" placeholder="Enter Your Email" required>
+                    <button type="submit">Sign Up</button>
+                    <p id="formMessage"></p>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-us">
+            <div class="container"></div>
+            <h2>Contact Us</h2>
+            <p>Reach out to us on our socials.<br>
+                For future products
+            </p>
+            <p class="email">smartlens@gmail.com</p>
+
+            <div class="social-icons">
+                <a href="#" aria-label="Instagram"><img src="instagram icon.png" alt="Instagram"></a>
+                <a href="#" aria-label="X"><img src="x icon.png" alt="X"></a>
+            </div>
+        </section>
+
+        <footer>
+            <div id="container">
+                <p>&copy; 2025 SmartLens Technologies. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="lens.js"></script>
+    </body>
+</html>
